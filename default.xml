@@ -16,6 +16,10 @@
 
   <project remote="oe"        upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
 
+  <project remote="ycanince" name="raspberrypi-bsp-base" path="sources/base">
+	<linkfile dest="README" src="README"/>
+  </project>
+
   <project remote="QT5"       upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
 
