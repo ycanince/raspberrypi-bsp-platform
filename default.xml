@@ -10,14 +10,12 @@
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
 
   <project remote="yocto"     upstream="dunfell"   name="poky"                    path="sources/poky"/>
-  <project remote="yocto"     upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
+  <project remote="yocto"     upstream="dunfell"   name="meta-raspberrypi"          path="sources/meta-raspberrypi"/>
 
   <project remote="oe"        upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
 
   <project remote="oe"        upstream="dunfell"   name="meta-python2"             path="sources/meta-python2"/>
 
-  <project remote="freescale" upstream="dunfell"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" upstream="dunfell"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
   <project remote="freescale" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
 
   <project remote="QT5"       upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
