@@ -4,7 +4,6 @@
   <default sync-j="4" revision="dunfell"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/Freescale"     name="freescale"/>
   <remote fetch="https://git.openembedded.org"     name="oe"/>
   <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
@@ -12,7 +11,6 @@
 
   <project remote="yocto"     upstream="dunfell"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     upstream="dunfell"   name="meta-raspberrypi"        path="sources/meta-raspberrypi"/>
-  <project remote="yocto"     upstream="dunfell"   name="meta-freescale"          path="sources/meta-freescale"/>
 
   <project remote="oe"        upstream="dunfell"   name="meta-openembedded"       path="sources/meta-openembedded"/>
 
@@ -22,10 +20,6 @@
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-
-  <project remote="freescale" upstream="dunfell"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" upstream="dunfell"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="freescale" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
 
   <project remote="QT5"       upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="sbabic"    upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
